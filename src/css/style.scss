@@ -1,19 +1,20 @@
-@import 'globals';
-@import 'normalize';
-@import 'share';
-@import 'info';
-@import 'menubar';
-@import 'footer';
+
+
+
+@use 'globals';
+@use 'normalize';
+@use 'share';
+@use 'info';
+@use 'menubar';
+@use 'footer';
+@use 'responsive';
 
 body {
   margin: 0;
   padding: 0 .5rem;
 }
 
-div.hr {
-  @include hr();
-  margin: .5rem 0;
-}
+
 
 p {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -21,7 +22,6 @@ p {
 
 div#center {
   margin: 0 auto;
-  max-width: $body_col_width;
 }
 
 .green {
@@ -29,11 +29,9 @@ div#center {
 }
 
 .orange {
-  color: $color_orange;
 }
 
 .red {
-  color: $color_red;
 }
 
 p {
@@ -76,7 +74,7 @@ div {
   }
   &#yesbox {
     text-align: center;
-    font-family: $font_yes;
+    
     padding-top: 3.5em;
     padding-bottom: 3.1em;
   }
@@ -169,5 +167,3 @@ p.copyright {
     }
   }
 }
-
-@import 'responsive';

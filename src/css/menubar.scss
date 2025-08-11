@@ -1,16 +1,12 @@
 #menubar {
     position: fixed;
-    max-width: $body_col_width;
     right: 0;
     left: 0;
     margin: 0 auto;
     padding: 0 .5rem;
     background-color: #fff;
     z-index: 999;
-  
-    .menubar-wrapper {
-        border-bottom: .1rem solid $color_light_grey;
-    }
+
   
     ul {
       &#menubar-left {
@@ -33,7 +29,7 @@
           display: inline;
   
           &#menutest {
-            font-family: $font_yes;
+         
             text-transform: uppercase;
             font-weight: 700;
             text-decoration: none;

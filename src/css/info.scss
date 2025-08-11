@@ -1,5 +1,5 @@
 .infobox {
-    font-family: $font_yes;
+    
     display: table;
     width: 100%;
     text-align: center;
@@ -15,12 +15,9 @@
     }
 
     .infobox-left {
-        border-right: $line_light_grey;
-        @include hr();
+   
 
-        div {
-            min-width: $responsive_small / 2;
-        }
+       
 
         .infobox-content {
             font-size: 1.5rem;
@@ -31,11 +28,7 @@
     .infobox-right {
         width: 100%;
         text-align: center;
-        @include hr();
-
-        div {
-            min-width: $responsive_small / 2;
-        }
+      
 
         .infobox-content {
             font-size: 1.25rem;
@@ -48,13 +41,11 @@
     }
 
     .infobox-title {
-        color: $color_light_grey;
         font-size: 1.1rem;
         text-transform: uppercase;
     }
 
     .infobox-subtitle {
-        color: $color_light_grey;
         font-size: .9rem;
         text-transform: uppercase;
     }
