@@ -4,21 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir build\\public\\static && xcopy /E /I src\\img build\\public\\static && webpack",
+    "build": " xcopy /E /I src\\img build\\public\\static && webpack",
     "start": "nodemon --watch src -e scss,hbs,js --exec \"node build/server.js\"",
     "test": "echo \"Error: n test specified\" && exit 1",
      "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theBrianCui/IsMyInternetWorking.git"
+    "url": "git+https://github.com/eyadalahmar/IsMyInternetWorking-updated.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theBrianCui/IsMyInternetWorking/issues"
+    "url": "https://github.com/eyadalahmar/IsMyInternetWorking-updated/issues"
   },
-  "homepage": "https://github.com/theBrianCui/IsMyInternetWorking#readme",
+  "homepage": "https://github.com/eyadalahmar/IsMyInternetWorking-updated",
   "dependencies": {
     "compression": "^1.7.1",
     "dotenv": "^5.0.0",
