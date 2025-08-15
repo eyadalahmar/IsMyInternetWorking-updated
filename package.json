@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/eyadalahmar/IsMyInternetWorking-updated/issues"
   },
-  "homepage": "https://github.com/eyadalahmar/IsMyInternetWorking-updated",
+  "homepage": "https://eyadalahmar.github.io/IsMyInternetWorking-updated",
   "dependencies": {
     "compression": "^1.7.1",
     "dotenv": "^5.0.0",
