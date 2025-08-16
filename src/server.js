@@ -5,7 +5,7 @@ const compression = require("compression");
 require('dotenv').config();
 import getLocation from "./js/getLocation.js";
 
-const PUBLIC = path.resolve(__dirname, "public");
+const PUBLIC = path.resolve(__dirname);
 
 /*
 we can exclude a route from compression using the filter attribute
@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(compression());
     app.set('trust proxy', true);
     // support static retrieval on well-known endpoint for tls
-    app.use('/.well-known', express.static('/home/public/.well-known'))
+    app.use('/.well-known', express.static('/home/.well-known'))
 }
 
 app.use('/static', express.static(path.join(PUBLIC, 'static')));

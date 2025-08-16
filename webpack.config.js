@@ -22,8 +22,7 @@ let css_rules = {
     }) : ["style-loader", "css-loader", "sass-loader"]
 };
 
-let plugins = [
-    new HtmlWebpackPlugin({
+let plugins = [new HtmlWebpackPlugin({
         title: "Webpack demo",
         template: path.join(PATHS.src, "hbs", "index.hbs"),
         filename: path.join(PATHS.build, "index.html"),
@@ -83,7 +82,8 @@ module.exports = [
             ],
         },
         output: {
-            path: path.resolve(__dirname, 'build'),  
+            path: path.join(PATHS.build, "static"),
+            publicPath: "/static/",
             filename: "app.js",
         },
         plugins: plugins,
