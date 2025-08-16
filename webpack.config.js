@@ -58,7 +58,7 @@ if (PROD_ENV) {
 
 if (INLINE) {
     plugins.push(new ScriptExtHtmlWebpackPlugin({
-        inline: "static/app.js",
+        inline: "app.js",
     }));
 };
 
@@ -82,8 +82,8 @@ module.exports = [
             ],
         },
         output: {
-            path: path.join(PATHS.build, "static"),
-            publicPath: "/static/",
+            path: path.join(PATHS.build, ""),
+            publicPath: "/",
             filename: "app.js",
         },
         plugins: plugins,
