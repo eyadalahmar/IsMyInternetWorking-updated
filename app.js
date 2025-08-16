@@ -726,7 +726,7 @@ function main() {
     });
 
     runTest();
-    console.log(`Your Console Works! Build Type: ${"undefined"} : ${"١٦‏/٨‏/٢٠٢٥، ٥:١٠:٥١ ص"}`);
+    console.log(`Your Console Works! Build Type: ${"undefined"} : ${"١٦‏/٨‏/٢٠٢٥، ٥:١٤:١٥ ص"}`);
     console.log(`For contributions, please submit pull requests and animated gifs to ${"https://github.com/theBrianCui/IsMyInternetWorking"} . Thank you!`);
     if (false) {
         ga();
