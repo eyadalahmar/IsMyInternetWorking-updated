@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/static/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 8);
@@ -726,7 +726,7 @@ function main() {
     });
 
     runTest();
-    console.log(`Your Console Works! Build Type: ${"undefined"} : ${"١٥‏/٨‏/٢٠٢٥، ١١:١٨:٢٧ م"}`);
+    console.log(`Your Console Works! Build Type: ${"undefined"} : ${"١٦‏/٨‏/٢٠٢٥، ٥:١٠:٥١ ص"}`);
     console.log(`For contributions, please submit pull requests and animated gifs to ${"https://github.com/theBrianCui/IsMyInternetWorking"} . Thank you!`);
     if (false) {
         ga();
