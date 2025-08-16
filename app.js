@@ -726,7 +726,7 @@ function main() {
     });
 
     runTest();
-    console.log(`Your Console Works! Build Type: ${"production|dev"} : ${"١٦‏/٨‏/٢٠٢٥، ٧:٣٣:٤٧ ص"}`);
+    console.log(`Your Console Works! Build Type: ${"production|dev"} : ${"١٦‏/٨‏/٢٠٢٥، ٧:٣٨:٠٣ ص"}`);
     console.log(`For contributions, please submit pull requests and animated gifs to ${"https://github.com/theBrianCui/IsMyInternetWorking"} . Thank you!`);
     if (false) {
         ga();
