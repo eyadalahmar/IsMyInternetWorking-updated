@@ -22,10 +22,11 @@ let css_rules = {
     }) : ["style-loader", "css-loader", "sass-loader"]
 };
 
-let plugins = [new HtmlWebpackPlugin({
+let plugins = [
+    new HtmlWebpackPlugin({
         title: "Webpack demo",
         template: path.join(PATHS.src, "hbs", "index.hbs"),
-        filename: path.join(PATHS.build, "public", "index.html"),
+        filename: path.join(PATHS.build, "index.html"),
         minify: PROD_ENV ? {
             removeAttributeQuotes: true,
             collapseWhitespace: true,
@@ -82,8 +83,7 @@ module.exports = [
             ],
         },
         output: {
-            path: path.join(PATHS.build, "public", "static"),
-            publicPath: "/static/",
+            path: path.resolve(__dirname, 'build'),  
             filename: "app.js",
         },
         plugins: plugins,
